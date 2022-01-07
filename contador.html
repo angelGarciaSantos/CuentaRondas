@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Contador</h1>
+    <table>
+      <tr>
+        <th>Persona</th>
+        <th>Cantidad</th> 
+        <th></th> 
+        <th></th> 
+        <th></th> 
+      </tr>
+      <tr>
+        <td>Juan</td>
+        <td class="cantidad">0</td> 
+        <td><button class="mas">+</button></td> 
+        <td><button class="menos">-</button></td> 
+        <td><button class="borrar">Borrar</button></td> 
+      </tr>
+      <tr> 
+        <td>Mario</td>
+        <td class="cantidad">0</td> 
+        <td><button class="mas">+</button></td> 
+        <td><button class="menos">-</button></td> 
+        <td><button class="borrar">Borrar</button></td> 
+      </tr>
+      <tr>
+        <td>Javi</td>
+        <td class="cantidad">0</td> 
+        <td><button class="mas">+</button></td> 
+        <td><button class="menos">-</button></td> 
+        <td><button class="borrar">Borrar</button></td> 
+      </tr>
+      <tr>
+        <td>Angel</td>
+        <td class="cantidad">0</td> 
+        <td><button class="mas">+</button></td> 
+        <td><button class="menos">-</button></td> 
+        <td><button class="borrar">Borrar</button></td> 
+      </tr>
+    </table>
+    <input type="text" id="name" name="name" required
+           minlength="4" maxlength="8" size="10">
+    <button id="nuevo">Nueva persona</button>
+    <button class="csv">CSV</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="table2csv.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
+
