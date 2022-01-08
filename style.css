@@ -74,10 +74,10 @@ tr {
 .mas, .menos {
 	display:block;
 	height: 1.5em;
-	width: 1.5em;
+	width: 1em;
 	border-radius: 20%;
 	border: 1px solid green;
-	font-size: 5rem;
+	font-size: 2em;
 	color: black;
 }
 .borrar {
