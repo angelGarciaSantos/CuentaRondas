@@ -2,10 +2,9 @@ body {
 	font-family: sans-serif;
 	text-align: center;
 	padding: 3rem;
-	font-size: 3.5rem;
 }
 h1 {
-	font-size: 6rem;
+	/* font-size: 6rem; */
 	font-weight: bolder;
 	margin-bottom: 1rem;
 	text-align: center;
@@ -25,7 +24,7 @@ input[type=text], select {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
-	font-size: 3.5rem;
+	/* font-size: 3.5rem; */
 }
 .mas, .menos {
 	display:block;
@@ -35,7 +34,7 @@ input[type=text], select {
 	min-width: 120px !important;
 	border-radius: 20%;
 	border: 1px solid green;
-	font-size: 5rem;
+	/* font-size: 5rem; */
 	color: black;
 }
 .borrar {
@@ -46,7 +45,7 @@ input[type=text], select {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 3.5rem;
+	/* font-size: 3.5rem; */
 }
 
 .nuevo {
@@ -57,5 +56,5 @@ input[type=text], select {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 3.5rem;
+	/* font-size: 3.5rem; */
 }
