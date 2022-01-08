@@ -2,26 +2,23 @@ body {
 	font-family: sans-serif;
 	text-align: center;
 	padding: 3rem;
-	font-size: 1.125rem;
+	font-size: 4rem;
 	line-height: 1.5;
 	transition: all 725ms ease-in-out;
 }
-
 h1 {
-	font-size: 2rem;
+	font-size: 6rem;
 	font-weight: bolder;
 	margin-bottom: 1rem;
+	text-align: center;
 }
-
 p {
 	margin-bottom: 1rem;
 	color: tomato;
 }
-
 div {
 	text-align: center;
 }
-
 .button {
 	display: inline-block;
 	border-radius: 4px;
@@ -29,40 +26,35 @@ div {
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 28px;
+	font-size: 3.5rem;
 	padding: 20px;
 	width: 200px;
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
-  }
-  
-  .button span {
+}
+.button span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-  }
-  
-  .button span:after {
+}
+.button span:after {
 	content: '\00bb';
 	position: absolute;
 	opacity: 0;
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-  }
-  
-  .button:hover span {
+} 
+.button:hover span {
 	padding-right: 25px;
-  }
-  
-  .button:hover span:after {
+} 
+.button:hover span:after {
 	opacity: 1;
 	right: 0;
-  }
-
-  input[type=text], select {
+}
+input[type=text], select {
 	width: 50%;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -70,31 +62,30 @@ div {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
-  }
-
-  th, td {
+	font-size: 3.5rem;
+}
+th, td {
 	padding: 15px;
 	text-align: left;
-  }
-  tr {
-	  margin-right: 0;
-  }
-
-  .mas, .menos {
+}
+tr {
+	margin-right: 0;
+}
+.mas, .menos {
 	display:block;
-	height: 30px;
-	width: 30px;
+	height: 1.5em;
+	width: 1.5em;
 	border-radius: 50%;
 	border: 1px solid green;
-	}
-  
+	font-size: 7rem;
+}
 .borrar {
-  background-color: red; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+	background-color: red; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 3.5rem;
 }
