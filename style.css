@@ -73,11 +73,11 @@ tr {
 }
 .mas, .menos {
 	display:block;
-	height: 1.2em;
-	width: 1.2em;
+	height: 120px;
+	width: 120px;
 	border-radius: 20%;
 	border: 1px solid green;
-	font-size: 2em;
+	font-size: 5rem;
 	color: black;
 }
 .borrar {
