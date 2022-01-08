@@ -28,14 +28,13 @@ input[type=text], select {
 	font-size: 3.5rem;
 }
 .mas, .menos {
-	display:block;
 	height: 120px;
 	width: 120px;
 	max-width: 120px !important;
 	min-width: 120px !important;
 	border-radius: 20%;
 	border: 1px solid green;
-	font-size: 80px;
+	font-size: 40px;
 	color: black;
 }
 .borrar {
