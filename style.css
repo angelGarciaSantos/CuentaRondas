@@ -32,7 +32,7 @@ input[type=text], select {
 	width: 120px;
 	max-width: 120px !important;
 	min-width: 120px !important;
-	border-radius: 20%;
+	border-radius: 50%;
 	border: 1px solid green;
 	font-size: 40px;
 	color: black;
