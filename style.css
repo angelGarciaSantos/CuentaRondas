@@ -2,9 +2,7 @@ body {
 	font-family: sans-serif;
 	text-align: center;
 	padding: 3rem;
-	font-size: 4rem;
-	line-height: 1.5;
-	transition: all 725ms ease-in-out;
+	font-size: 3.5rem;
 }
 h1 {
 	font-size: 6rem;
@@ -12,12 +10,11 @@ h1 {
 	margin-bottom: 1rem;
 	text-align: center;
 }
-p {
-	margin-bottom: 1rem;
-	color: tomato;
-}
 div {
 	text-align: center;
+}
+td{
+	padding: 1rem;
 }
 
 input[type=text], select {
@@ -29,13 +26,6 @@ input[type=text], select {
 	border-radius: 4px;
 	box-sizing: border-box;
 	font-size: 3.5rem;
-}
-th, td {
-	padding: 15px;
-	text-align: left;
-}
-tr {
-	margin-right: 0;
 }
 .mas, .menos {
 	display:block;
