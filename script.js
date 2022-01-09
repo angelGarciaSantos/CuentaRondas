@@ -10,15 +10,26 @@ $('#nuevo').on('click', function() {
     `);
     $('input').val('');
 });
+$(document).ready(function(){
+    let content = $.cookie('tabledata');
+    if (content!=='undefined')
+        $('table').html(content);
+});
 $(document).on('click', '.mas', function() {
     $(this).parent().prev().html(parseInt($(this).parent().prev().text()) + 1);
+    var x = $('table').prop('outerHTML');     
+    $.cookie('tabledata', x);
 });
 $(document).on('click', '.menos',  function() {
     $(this).parent().next().html(parseInt($(this).parent().next().text()) - 1);
+    var x = $('table').prop('outerHTML');     
+    $.cookie('tabledata', x);
 });
 $(document).on('click', '.borrar', function() {
     $(this).closest("tr")
            .remove();
+    var x = $('table').prop('outerHTML');     
+    $.cookie('tabledata', x);
 });
 $(document).on('click', '.guardar', function() {
     var x = $('table').prop('outerHTML');     
