@@ -21,10 +21,11 @@ $(document).on('click', '.borrar', function() {
            .remove();
 });
 $(document).on('click', '.guardar', function() {
-    $.cookie('name', 'value');
+    var x = $('table').prop('outerHTML');     
+    $.cookie('tabledata', x);
 });
 $(document).on('click', '.cargar', function() {
-    let x = $.cookie('name');;
+    let x = $.cookie('tabledata');
     alert(x);
 });
 // $(document).on('click', '.csv', function() {
