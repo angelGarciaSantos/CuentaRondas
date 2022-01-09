@@ -9,6 +9,8 @@ $('#nuevo').on('click', function() {
         </tr>
     `);
     $('input').val('');
+    var x = $('table').prop('outerHTML');     
+    $.cookie('tabledata', x);
 });
 $(document).ready(function(){
     let content = $.cookie('tabledata');
