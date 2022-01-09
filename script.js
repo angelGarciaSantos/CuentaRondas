@@ -25,7 +25,8 @@ $(document).on('click', '.guardar', function() {
     $.cookie('tabledata', x);
 });
 $(document).on('click', '.cargar', function() {
-    let x = $.cookie('tabledata');
+    let content = $.cookie('tabledata');
+    $('table').html(content);
     alert(x);
 });
 // $(document).on('click', '.csv', function() {
