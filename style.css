@@ -16,7 +16,6 @@ td{
 	padding: 1rem;
 	font-size: 75px;
 }
-
 input[type=text], select {
 	width: 50%;
 	padding: 12px 20px;
@@ -47,7 +46,6 @@ input[type=text], select {
 	display: inline-block;
 	font-size: 3.5rem;
 }
-
 .nuevo {
 	background-color: green;
 	border: none;
