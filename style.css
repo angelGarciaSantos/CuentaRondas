@@ -46,6 +46,7 @@ input[type=text], select {
 	display: inline-block;
 	font-size: 3.5rem;
 }
+.ronda,
 .nuevo {
 	background-color: green;
 	border: none;

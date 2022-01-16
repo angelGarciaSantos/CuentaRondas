@@ -28,6 +28,18 @@ $(document).on('click', '.mas', function() {
     $.cookie('tabledata', x, { expires: 7 });
 });
 
+// Increase amount for everyone
+$(document).on('click', '.ronda', function() {
+    $('table > tbody  > tr').each(function(index, tr) { 
+        $.each(this.cells, function(index2, td){
+            var classList = $(td).attr("class");   
+            if (classList != undefined && classList == 'cantidad') {
+                $(td).html(parseInt($(td).text()) + 1);
+            }   
+        });
+     });
+});
+
 // Decrease amount
 $(document).on('click', '.menos',  function() {
     $(this).parent().next().html(parseInt($(this).parent().next().text()) - 1);
