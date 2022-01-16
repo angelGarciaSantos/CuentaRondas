@@ -38,6 +38,7 @@ $(document).on('click', '.ronda', function() {
             }   
         });
      });
+     $.cookie('tabledata', x, { expires: 7 });
 });
 
 // Decrease amount
