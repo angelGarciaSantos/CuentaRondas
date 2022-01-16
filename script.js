@@ -42,9 +42,11 @@ $(document).on('click', '.ronda', function() {
 
 // Decrease amount
 $(document).on('click', '.menos',  function() {
-    $(this).parent().next().html(parseInt($(this).parent().next().text()) - 1);
-    var x = $('table').prop('outerHTML');     
-    $.cookie('tabledata', x, { expires: 7 });
+    if(parseInt($(this).parent().next().text()) > 0) {
+        $(this).parent().next().html(parseInt($(this).parent().next().text()) - 1);
+        var x = $('table').prop('outerHTML');     
+        $.cookie('tabledata', x, { expires: 7 });
+    }
 });
 
 // Delete drinker
