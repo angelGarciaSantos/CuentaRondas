@@ -38,6 +38,7 @@ $(document).on('click', '.ronda', function() {
             }   
         });
      });
+     var x = $('table').prop('outerHTML');
      $.cookie('tabledata', x, { expires: 7 });
 });
 
